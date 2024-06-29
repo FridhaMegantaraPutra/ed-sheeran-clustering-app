@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 # Title of the app
 st.title('K-means Clustering with PCA Visualization')
 st.write('This app performs K-means clustering on tweets about Ed Sheeran.')
-st.image('ed.png', caption='Sunrise by the mountains')
+st.image('ed.png')
 
 # Define model files based on number of clusters
 model_files = {
